@@ -22,7 +22,7 @@ def user_input_features():
 
 df = user_input_features()
 
-nobel =  pd.read_csv('df_nobel.csv', encoding='latin-1')
+nobel =  pd.read_csv('datosnobel.csv', encoding='latin-1')
 X = nobel.Text
 y = nobel.Label
 
