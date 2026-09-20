@@ -6,7 +6,7 @@ from sklearn.naive_bayes import MultinomialNB
 
 
 st.write(''' # Predicción de categoría de Premio Nobel ''')
-st.image("Nobel.png", caption="Su creador fue el inventor sueco Alfred Nobel mediante su testamento en 1895.")
+st.image("premio.png", caption="Su creador fue el inventor sueco Alfred Nobel mediante su testamento en 1895.")
 
 st.header('Texto')
 
