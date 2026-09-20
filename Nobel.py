@@ -24,7 +24,7 @@ df = user_input_features()
 
 nobel =  pd.read_csv('datosnobel.csv', encoding='latin-1')
 X = nobel.Text
-y = nobel.Label
+y = nobel.label
 
 vect = CountVectorizer()
 X_dtm = vect.fit_transform(X)
